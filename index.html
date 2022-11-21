@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first line of css</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: #c92424;
+            /*src: url(https://fonts.google.com/specimen/Inter)*/
+        }
+        .title{
+            padding: 0;
+            position: relative;
+            text-align: center;
+            font-size: 30px;
+            color: rgb(247, 244, 244);
+            font-family: 'Bowlby One SC', cursive;
+            text-shadow: 0px 0px 10px #0707075f;
+        
+        }
+        .main{
+            min-height: 600px;
+            /*width: 700px;*/
+            /*text-align: center;*/
+            margin-left: 100px;
+            margin-top: 50px;
+            margin-right: 100px;
+            color: #292d315f;
+            position: relative;
+            background-color: rgb(182, 42, 65);
+            border-radius: 25px;
+            box-shadow: 0px 0px 6px rgb(0, 0, 0);
+            display: flex;
+            overflow: hidden;
+            
+        }
+        .child{
+            margin-left: 0px;
+            margin-top: 0px;
+            margin-right: 30px;
+            flex: 49.9%;
+            color: black;
+            text-shadow: 0px 0px 4px #292d315f;
+            /*border: 1px solid red;*/
+            min-height: 600px;
+            text-align: center;
+            font-size: 26px;
+            /* overflow: hidden; */
+            
+        }
+        /* #2{
+            min-height: 600px;
+            overflow: hidden; */
+        
+        .source{
+            border-radius: 50px 10px 50px 10px;
+            box-shadow: 0px 0px 10px #292d315f;
+            margin-left: 0px;
+            margin-right: auto;
+            margin-top: 5vh;
+            width: auto;
+            height: 60vh;
+        }
+        .second{
+            min-height: 20vh;
+            background-color: rgb(182, 42, 65);
+            margin: 50px 100px 50px 100px;
+            border-radius: 25px;
+            box-shadow: 0px 0px 6px rgb(0, 0, 0);
+            font-size: 25px;
+            padding-top: 4%;
+            padding-left: 3%;
+            padding-right: 3%;
+            padding-bottom: 4%;
+            text-shadow: 1px 0px 1px #0000005f;
+            color: rgb(43, 5, 5);
+            overflow: hidden;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="title">
+        <p><h1>Stan Lee</h1></p>
+    </div>
+    <div class="main">
+        <div class="child" id="1">
+            <p>
+                <img src="data:image/jpeg;base64,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" alt="Stanlee" class="source"
+                />
+            </p>
+        </div>
+        <div class="child" id="2">
+            <br>
+            <p>Stan Lee was an American comic book writer, editor, publisher, and producer. He rose through the ranks of a family-run business called Timely Publications which would later become Marvel Comics.</p>
+            <p>Born: 28 December 1922, Manhattan, New York, United States</p>
+            <p>Died: 12 November 2018, Cedars-Sinai Medical Center, Los Angeles, California, United States</p>
+            <p>Spouse: Joan Boocock Lee (m. 1947–2017)</p>
+            <p>Children: Joan Celia Lee, Jan Lee</p>
+            <p>Full name: Stanley Martin Lieber</p>
+                
+            </p>
+
+        </div>
+    </div>
+    <div class="second">
+        <p>
+            In the late 1950s, DC Comics editor Julius Schwartz revived the superhero archetype and experienced significant success with an updated version of the Flash, and later with the Justice League of America super-team. In response, publisher Martin Goodman assigned Lee to come up with a new superhero team. Lee's wife suggested that he experiment with stories he preferred, since he was planning on changing careers and had nothing to lose.
+
+        </p>
+        <p>
+            Lee's revolution extended beyond the characters and storylines to the way in which comic books engaged the readership and built a sense of community between fans and creators.
+        </p>
+        <p>
+            The first superheroes Lee and artist Jack Kirby created together were the Fantastic Four. The team's immediate popularity led Lee and Marvel's illustrators to produce a cavalcade of new titles. Again working with Kirby, Lee co-created the Hulk, Thor, Iron Man, and the X-Men; with Bill Everett, Daredevil; and with Steve Ditko, Doctor Strange and Marvel's most successful character, Spider-Man, all of whom lived in a thoroughly shared universe.Lee and Kirby gathered several of their newly created characters together into the team title The Avengers and would revive characters from the 1940s such as the Sub-Mariner and Captain America.
+        </p>
+        <p>
+            A hero is someone who is passionate about what they do, and by having that passion they inspire others to do the same. Stan Lee remains a hero because he inspires others through his creation of popular superheroes and his unending passion for his craft.
+        </p>
+
+    </div>
+</body>
